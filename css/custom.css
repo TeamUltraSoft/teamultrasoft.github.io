@@ -123,6 +123,13 @@ nav a:hover {
     background-color: #fcc71b; 
 }
 
+.p2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(74,151,160,1) 0%, rgba(125,184,216,1) 50%, rgba(125,210,255,1) 100%);
+}
+
 .grid-box {
     box-shadow: 0 0px 6px 1px rgb(222, 222, 222);
     position: relative;
@@ -149,6 +156,7 @@ nav a:hover {
     opacity: 0;
     transition: .5s ease;
     background-color: inherit;
+    background: inherit;
     border-radius: 6px;
 }
   
